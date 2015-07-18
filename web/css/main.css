@@ -33,6 +33,21 @@
   font-weight: normal;
   font-style: normal; }
 
+.jl-link {
+  position: relative; }
+  .jl-link .jl-link-underline {
+    display: block;
+    width: 0%;
+    -webkit-transition: all 0.4s ease-in-out;
+            transition: all 0.4s ease-in-out;
+    height: 2px;
+    background-color: #414141;
+    position: absolute;
+    bottom: 24px;
+    left: 20px; }
+  .jl-link:hover .jl-link-underline {
+    width: calc(100% - 40px); }
+
 .jl-content {
   max-width: 1100px;
   margin: 0 auto; }
