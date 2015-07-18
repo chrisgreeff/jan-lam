@@ -33,17 +33,59 @@
   font-weight: normal;
   font-style: normal; }
 
-header {
+.jl-content {
+  max-width: 1100px;
+  margin: 0 auto; }
+
+.jl-header-container {
+  height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0; }
+
+.jl-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex: 1; }
-  header .jl-header-link {
-    display: inline-block;
+  height: 70px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .jl-header .jl-header-link {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 70px;
     padding: 20px;
     text-decoration: none;
-    color: #414141; }
+    text-transform: uppercase;
+    color: #737373;
+    font-size: 14px;
+    -webkit-transition: all 0.4s ease-in-out;
+            transition: all 0.4s ease-in-out; }
+    .jl-header .jl-header-link:hover {
+      color: #414141; }
+    .jl-header .jl-header-link.jl-header-link--main {
+      font-size: 25px;
+      font-family: 'proxima_nova_bold'; }
 
 .section {
   padding: 30px 75px; }
 
 body {
   font-family: 'proxima_nova_regular'; }
+
+* {
+  box-sizing: border-box; }

@@ -1,7 +1,12 @@
 @import "fonts";
+@import "content";
 @import "header";
 @import "section";
 
 body {
   font-family: 'proxima_nova_regular';
+}
+
+* {
+  box-sizing: border-box;
 }
