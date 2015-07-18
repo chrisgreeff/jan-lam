@@ -1,3 +1,23 @@
-.section {
+.jl-section {
   padding: 30px 75px;
+  background-color: #FFF;
+
+  &.jl-section--green { background-color: #1DB69D; color: #FFF; }
+  &.jl-section--red { background-color: #DE563A; color: #FFF; }
+  &.jl-section--yellow { background-color: #F2972E; color: #FFF; }
+  &.jl-section--grey { background-color: #E6DFD6; }
+
+  .jl-section-header-container {
+    display: block;
+    text-align: center;
+
+    .jl-section-header {
+      display: inline-block;
+      padding: 0 50px;
+      border-bottom: solid 1px;
+      text-transform: uppercase;
+      font-size: 36px;
+      font-family: 'proxima_nova_bold';
+    }
+  }
 }

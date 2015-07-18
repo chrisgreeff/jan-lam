@@ -53,6 +53,9 @@
   margin: 0 auto; }
 
 .jl-header-container {
+  border-bottom: 1px solid #989898;
+  background-color: #FFF;
+  z-index: 2;
   height: 70px;
   position: fixed;
   top: 0;
@@ -96,11 +99,34 @@
       font-size: 25px;
       font-family: 'proxima_nova_bold'; }
 
-.section {
-  padding: 30px 75px; }
+.jl-section {
+  padding: 30px 75px;
+  background-color: #FFF; }
+  .jl-section.jl-section--green {
+    background-color: #1DB69D;
+    color: #FFF; }
+  .jl-section.jl-section--red {
+    background-color: #DE563A;
+    color: #FFF; }
+  .jl-section.jl-section--yellow {
+    background-color: #F2972E;
+    color: #FFF; }
+  .jl-section.jl-section--grey {
+    background-color: #E6DFD6; }
+  .jl-section .jl-section-header-container {
+    display: block;
+    text-align: center; }
+    .jl-section .jl-section-header-container .jl-section-header {
+      display: inline-block;
+      padding: 0 50px;
+      border-bottom: solid 1px;
+      text-transform: uppercase;
+      font-size: 36px;
+      font-family: 'proxima_nova_bold'; }
 
 body {
-  font-family: 'proxima_nova_regular'; }
+  font-family: 'proxima_nova_regular';
+  padding-top: 70px; }
 
 * {
   box-sizing: border-box; }
