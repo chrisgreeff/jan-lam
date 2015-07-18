@@ -6,3 +6,7 @@ gulp.task('sass', () => {
     .pipe(sass())
     .pipe(gulp.dest('web/css'))
 })
+
+gulp.task('default', () => {
+  gulp.watch('assets/**/*.*', ['sass'])
+})
