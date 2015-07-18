@@ -1,0 +1,24 @@
+{
+  "name": "jan-lam",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisgreeff/jan-lam.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisgreeff/jan-lam/issues"
+  },
+  "homepage": "https://github.com/chrisgreeff/jan-lam",
+  "dependencies": {
+    "babel-core": "^5.7.4",
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.4"
+  }
+}
