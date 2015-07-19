@@ -5,11 +5,12 @@
   &.jl-section--green { background-color: #1DB69D; color: #FFF; }
   &.jl-section--red { background-color: #DE563A; color: #FFF; }
   &.jl-section--yellow { background-color: #F2972E; color: #FFF; }
-  &.jl-section--grey { background-color: #E6DFD6; }
+  &.jl-section--grey { background-color: #E6DFD6; color: #414141; }
 
   .jl-section-header-container {
     display: block;
     text-align: center;
+    margin-bottom: 30px;
 
     .jl-section-header {
       display: inline-block;

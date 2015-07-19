@@ -1,0 +1,6 @@
+.jl-hr {
+  border-top: 1px dashed #FFF;
+  border-bottom: none;
+
+  &.jl-hr--grey { border-top: 1px dashed #414141; }
+}

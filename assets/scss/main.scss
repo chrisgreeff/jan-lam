@@ -1,5 +1,8 @@
+@import "surgical";
 @import "fonts";
+@import "flex";
 @import "link";
+@import "hr";
 @import "content";
 @import "header";
 @import "section";
@@ -9,6 +12,4 @@ body {
   padding-top: 70px;
 }
 
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
